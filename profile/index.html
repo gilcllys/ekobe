@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/design.css">
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <style>
+    .btn{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+  </style>
+</head>
+<body>
+  <img class="top" src="images/bg-pattern-top.svg" alt="">
+  <img class="bottom" src="images/bg-pattern-bottom.svg" alt="">
+  
+  
+  <div class="container">
+    <main>
+    
+      <picture>
+        <source srcset="images/bg-pattern-card-small.svg" media="(max-width: 600px )" >
+        <source  srcset="images/bg-pattern-card.svg">
+        <!-- bg pattern card-->
+        <img id="pattern_card" src="images/bg-pattern-card.svg" alt="Patter card" style="width: auto;">
+      </picture>
+    
+      <!--Section with the personal information-->
+      <section id="info_personal">
+    
+        <!-- perfil photo-->
+        <img id="photo_victor" src="images/image-victor.jpg" alt="##">
+    
+        <p><strong>Victor Crest</strong> 26</p>
+        <p id="city">Manaus</p>
+    
+      </section>
+    
+      <!-- Section with all data information about your midia socials-->
+      <section id="data">
+    
+        <div class="container_data">
+          <p class="number_data"><strong>15</strong></p>
+          <p class="tags_data">Atendimentos</p>
+        </div>
+    
+        <div class="container_data">
+          <p class="number_data"><strong>6</strong></p>
+          <p class="tags_data">Resultados</p>
+        </div>
+    
+        <div class="container_data">
+          <p class="number_data"><strong>3</strong></p>
+          <p class="tags_data">Pagamentos</p>
+        </div>
+      </section>
+  </div>
+    <div class="btn-group">
+      <a href="../profile/index.html" class="btn btn-primary" aria-current="page">Perfil</a>
+      <a href="../TelaMain.html" class="btn btn-primary centro">Busca</a>
+      <a href="#" class="btn btn-primary">Info</a>
+      <a href="../index.html" class="btn btn-primary">Sair</a>
+    </div>
+
+    
+  </main>
+
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

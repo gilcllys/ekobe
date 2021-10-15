@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+    
+}
+/* bg parttern top and bottom*/
+img.top{
+    position: fixed;
+    left: -428px;
+    top: -493px;
+}
+img.bottom{
+    position: fixed;
+    top: 211px;
+    left: 741px;
+}
+
+/* sytles of <main> tags*/
+main{
+    position: relative;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: fit-content;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+}
+/* pattern card */
+#pattern_card{
+    border-radius: 10px 10px 0 0;
+}
+/* end */
+
+/* section of information personal */
+
+
+#photo_victor{
+    border-radius: 50%;
+    border: 5px solid white
+}
+#info_personal{
+    position: relative;
+    top: -55px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    border-bottom: 1px solid hsla(0, 0%, 59%, 0.385);
+}
+
+#info_personal > p{
+    position: relative;
+    margin: 4px;
+    top: 20px;
+}
+/* end*/
+
+/* section with data informations */
+#data{
+    position: relative;
+    top: -45px;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 15px auto;
+}
+
+div.container_data > p{
+    margin: 5px auto;
+    
+}
+/* end*/
+
+/* div attribution */
+div.attribution > p{
+    position: relative;
+    bottom: -120px;
+    right: -10px;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    
+}
+a:visited,a:link{
+    text-decoration: none;
+
+}
+a:hover {
+	text-decoration: underline; 
+	color:rgb(53, 25, 116);
+	}
+
+/* end*/
+
+
+/* responsive web design*/
+@media only screen and (max-width: 600px) {
+    body{
+        display: flex;
+    
+        justify-content: end;
+        align-content: center;
+        height: 500px;
+        width: 320px;
+        padding: 0;
+        margin: 100px auto;
+    }
+
+    #patttern_card{
+        width: 300px;
+    }
+
+    main {
+        width: 300px;
+        margin: 10px auto;
+
+    }
+
+    div.attribution > p{
+        font-size: 10px;
+        margin: 10px auto;
+    }
+    img.top{
+        position: fixed;
+        left: -791px;
+        top: -591px;
+    }
+    img.bottom{
+        position: fixed;
+        top: 265px;
+        left: 219px;
+    }
+  }
