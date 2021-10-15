@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(136, 168, 235);
+}
+
+/* TELA MAIN */
+
+.nav-item{
+    border-radius: 5%;
+    background-color: brown;
+}
+.horario {
+    margin-bottom: 10px;
+}
